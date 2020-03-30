@@ -97,7 +97,7 @@
           "showValues": true,
           "showColors": true,
           "showAbsValues": false,
-          "threshold": 0.0
+          "threshold": 0.5
         },
         "columns": [
           {
@@ -156,11 +156,11 @@
   },
   "name": "Worksheet",
   "versionTag": {
-    "versionNumber": 5,
+    "versionNumber": 6,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1585561754203
+    "lastModifiedOn": 1585561829899
   },
   "creationTag": {
     "versionNumber": 0,
