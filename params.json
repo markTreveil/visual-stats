@@ -124,7 +124,7 @@
       }
     }
   },
-  "name": "Interactive Stats dashboard",
+  "name": "Interactive Stats",
   "imgPattern": 3,
   "showInitials": false,
   "metrics": {
@@ -182,11 +182,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 13,
+    "versionNumber": 14,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1585587299647
+    "lastModifiedOn": 1585596411302
   },
   "creationTag": {
     "versionNumber": 0,
