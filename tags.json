@@ -7,6 +7,9 @@
     "t-test": {},
     "correlation matrix": {},
     "statistical tests": {},
+    "duplicated": {
+      "color": "#3A85AD"
+    },
     "inferential statistics": {},
     "imported": {
       "color": "#263238"

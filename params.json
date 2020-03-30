@@ -125,7 +125,6 @@
     }
   },
   "name": "101.1: Interactive Stats (Tutorial) for Mark Treveil",
-  "projectStatus": "Sandbox",
   "imgPattern": 3,
   "showInitials": false,
   "metrics": {
@@ -183,11 +182,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 7,
+    "versionNumber": 8,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1585586837938
+    "lastModifiedOn": 1585586980054
   },
   "creationTag": {
     "versionNumber": 0,
@@ -210,7 +209,8 @@
     "inferential statistics",
     "statistical tests",
     "imported",
-    "tutorial"
+    "tutorial",
+    "duplicated"
   ],
   "customFields": {
     "gdpr_forbid_dataset_sharing": false,
