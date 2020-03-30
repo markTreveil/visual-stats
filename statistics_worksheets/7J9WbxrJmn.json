@@ -769,17 +769,73 @@
           "type": "CATEGORICAL"
         },
         "id": "ThSKPia"
+      },
+      {
+        "type": "pca",
+        "heatmapParams": {
+          "showValues": true,
+          "showColors": true,
+          "showAbsValues": false,
+          "threshold": 0.0
+        },
+        "columns": [
+          {
+            "name": "fixed acidity",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "volatile acidity",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "citric acid",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "residual sugar",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "chlorides",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "free sulfur dioxide",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "total sulfur dioxide",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "density",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "pH",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "sulphates",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "alcohol",
+            "type": "CONTINUOUS"
+          }
+        ],
+        "id": "5JDryl1"
       }
     ],
     "id": "ogM7clo"
   },
   "name": "Worksheet",
   "versionTag": {
-    "versionNumber": 55,
+    "versionNumber": 56,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1585573440027
+    "lastModifiedOn": 1585573588684
   },
   "creationTag": {
     "versionNumber": 0,
