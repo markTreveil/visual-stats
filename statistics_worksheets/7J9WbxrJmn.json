@@ -626,17 +626,36 @@
           "type": "CONTINUOUS"
         },
         "id": "5NPbYov"
+      },
+      {
+        "type": "fit_2d_distribution",
+        "xResolution": 640,
+        "yResolution": 480,
+        "distribution": {
+          "type": "kde_2d",
+          "x_relative_bandwidth": 15.0,
+          "y_relative_bandwidth": 15.0
+        },
+        "xColumn": {
+          "name": "density",
+          "type": "CONTINUOUS"
+        },
+        "yColumn": {
+          "name": "alcohol",
+          "type": "CONTINUOUS"
+        },
+        "id": "Y9ab80A"
       }
     ],
     "id": "ogM7clo"
   },
   "name": "Worksheet",
   "versionTag": {
-    "versionNumber": 27,
+    "versionNumber": 28,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1585569246117
+    "lastModifiedOn": 1585569385653
   },
   "creationTag": {
     "versionNumber": 0,
