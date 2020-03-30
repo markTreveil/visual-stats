@@ -741,17 +741,26 @@
           "type": "CONTINUOUS"
         },
         "id": "J0jCbWL"
+      },
+      {
+        "type": "shapiro",
+        "confidenceLevel": 0.95,
+        "column": {
+          "name": "density",
+          "type": "CONTINUOUS"
+        },
+        "id": "QjK6A4N"
       }
     ],
     "id": "ogM7clo"
   },
   "name": "Worksheet",
   "versionTag": {
-    "versionNumber": 53,
+    "versionNumber": 54,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1585571921934
+    "lastModifiedOn": 1585572647915
   },
   "creationTag": {
     "versionNumber": 0,
