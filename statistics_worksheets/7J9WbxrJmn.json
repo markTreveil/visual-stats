@@ -269,6 +269,10 @@
           {
             "name": "alcohol",
             "type": "CONTINUOUS"
+          },
+          {
+            "name": "chlorides",
+            "type": "CONTINUOUS"
           }
         ],
         "cards": [
@@ -489,6 +493,115 @@
               }
             ],
             "id": "xn0Dted"
+          },
+          {
+            "type": "column_card",
+            "column": {
+              "name": "chlorides",
+              "type": "CONTINUOUS"
+            },
+            "cards": [
+              {
+                "type": "bivariate_box_plot",
+                "maxValues": 5,
+                "groupOthers": true,
+                "binningMode": "AUTO",
+                "customBinningBoundaries": [],
+                "xColumn": {
+                  "name": "chlorides",
+                  "type": "CONTINUOUS"
+                },
+                "yColumn": {
+                  "name": "type",
+                  "type": "CATEGORICAL"
+                },
+                "id": "OTlPW1Z"
+              },
+              {
+                "type": "bivariate_histogram",
+                "xBinningMode": "AUTO",
+                "yBinningMode": "AUTO",
+                "maxValuesX": 100,
+                "maxValuesY": 5,
+                "groupWithOthersX": true,
+                "groupWithOthersY": true,
+                "xCustomBinningBoundaries": [],
+                "yCustomBinningBoundaries": [],
+                "xColumn": {
+                  "name": "chlorides",
+                  "type": "CONTINUOUS"
+                },
+                "yColumn": {
+                  "name": "type",
+                  "type": "CATEGORICAL"
+                },
+                "id": "sZkrqp2"
+              },
+              {
+                "type": "mosaic_plot",
+                "xBinningMode": "AUTO",
+                "yBinningMode": "AUTO",
+                "maxValuesX": 5,
+                "maxValuesY": 5,
+                "groupWithOthersX": true,
+                "groupWithOthersY": true,
+                "xCustomBinningBoundaries": [],
+                "yCustomBinningBoundaries": [],
+                "xColumn": {
+                  "name": "chlorides",
+                  "type": "CONTINUOUS"
+                },
+                "yColumn": {
+                  "name": "type",
+                  "type": "CATEGORICAL"
+                },
+                "id": "8qel50V"
+              },
+              {
+                "type": "bivariate_summary",
+                "confidenceLevel": 0.95,
+                "showConfidenceInterval": false,
+                "compute": {
+                  "spearman": true,
+                  "pearson": true,
+                  "totalCount": true,
+                  "covariance": true,
+                  "kendallTau": true,
+                  "mutualInformation": true,
+                  "completeCount": true
+                },
+                "xColumn": {
+                  "name": "chlorides",
+                  "type": "CONTINUOUS"
+                },
+                "yColumn": {
+                  "name": "type",
+                  "type": "CATEGORICAL"
+                },
+                "id": "OQM7wX7"
+              },
+              {
+                "type": "bivariate_frequency_table",
+                "xBinningMode": "AUTO",
+                "yBinningMode": "AUTO",
+                "maxValuesX": 5,
+                "maxValuesY": 5,
+                "groupWithOthersX": true,
+                "groupWithOthersY": true,
+                "xCustomBinningBoundaries": [],
+                "yCustomBinningBoundaries": [],
+                "xColumn": {
+                  "name": "chlorides",
+                  "type": "CONTINUOUS"
+                },
+                "yColumn": {
+                  "name": "type",
+                  "type": "CATEGORICAL"
+                },
+                "id": "0I9uK8c"
+              }
+            ],
+            "id": "eHSltRp"
           }
         ],
         "id": "hxR31Sw"
@@ -498,11 +611,11 @@
   },
   "name": "Worksheet",
   "versionTag": {
-    "versionNumber": 17,
+    "versionNumber": 25,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1585568788951
+    "lastModifiedOn": 1585569010778
   },
   "creationTag": {
     "versionNumber": 0,
