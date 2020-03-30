@@ -1,0 +1,134 @@
+{
+  "mode": "UNION",
+  "selectedColumns": [
+    "fixed acidity",
+    "volatile acidity",
+    "citric acid",
+    "residual sugar",
+    "chlorides",
+    "free sulfur dioxide",
+    "total sulfur dioxide",
+    "density",
+    "pH",
+    "sulphates",
+    "alcohol",
+    "quality"
+  ],
+  "originColumnName": "type",
+  "engineParams": {
+    "hive": {
+      "skipPrerunValidate": false,
+      "hiveconf": [],
+      "inheritConf": "default",
+      "addDkuUdf": false,
+      "executionEngine": "HIVECLI_LOCAL"
+    },
+    "sqlPipelineParams": {
+      "pipelineAllowMerge": true,
+      "pipelineAllowStart": true
+    },
+    "impala": {
+      "forceStreamMode": true
+    },
+    "lowerCaseSchemaIfEngineRequiresIt": true,
+    "sparkSQL": {
+      "skipPrerunValidate": false,
+      "pipelineAllowMerge": true,
+      "useGlobalMetastore": false,
+      "pipelineAllowStart": true,
+      "readParams": {
+        "mode": "AUTO",
+        "autoModeRepartitionInto": 10,
+        "map": {}
+      },
+      "overwriteOutputSchema": false,
+      "executionEngine": "SPARK_SUBMIT",
+      "sparkConfig": {
+        "inheritConf": "default",
+        "conf": []
+      }
+    }
+  },
+  "virtualInputs": [
+    {
+      "preFilter": {
+        "distinct": false,
+        "enabled": false
+      },
+      "originLabel": "white",
+      "index": 0
+    },
+    {
+      "preFilter": {
+        "distinct": false,
+        "enabled": false
+      },
+      "originLabel": "red",
+      "index": 1
+    }
+  ],
+  "postFilter": {
+    "$status": {
+      "schema": {
+        "columns": [
+          {
+            "name": "fixed acidity",
+            "type": "string"
+          },
+          {
+            "name": "volatile acidity",
+            "type": "string"
+          },
+          {
+            "name": "citric acid",
+            "type": "string"
+          },
+          {
+            "name": "residual sugar",
+            "type": "string"
+          },
+          {
+            "name": "chlorides",
+            "type": "string"
+          },
+          {
+            "name": "free sulfur dioxide",
+            "type": "string"
+          },
+          {
+            "name": "total sulfur dioxide",
+            "type": "string"
+          },
+          {
+            "name": "density",
+            "type": "string"
+          },
+          {
+            "name": "pH",
+            "type": "string"
+          },
+          {
+            "name": "sulphates",
+            "type": "string"
+          },
+          {
+            "name": "alcohol",
+            "type": "string"
+          },
+          {
+            "name": "quality",
+            "type": "string"
+          },
+          {
+            "name": "type",
+            "type": "string"
+          }
+        ],
+        "userModified": false
+      }
+    },
+    "distinct": false,
+    "enabled": false
+  },
+  "addOriginColumn": true
+}

@@ -1,0 +1,21 @@
+{
+  "tags": {
+    "eda": {},
+    "anova": {},
+    "kde plot": {},
+    "distribution fitting": {},
+    "t-test": {},
+    "correlation matrix": {},
+    "statistical tests": {},
+    "inferential statistics": {},
+    "imported": {
+      "color": "#263238"
+    },
+    "tutorial": {
+      "color": "#FFC425"
+    },
+    "bivariate analysis": {},
+    "statistics": {},
+    "univariate analysis": {}
+  }
+}

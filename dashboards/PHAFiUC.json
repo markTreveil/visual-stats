@@ -1,0 +1,34 @@
+{
+  "pages": [
+    {
+      "id": "mJ1GWGl",
+      "grid": {
+        "tiles": []
+      },
+      "showTitle": false
+    }
+  ],
+  "owner": "msakande",
+  "listed": true,
+  "name": "101.1: Interactive Stats (Tutorial)\u0027s default dashboard",
+  "showGrid": true,
+  "versionTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "msakande"
+    },
+    "lastModifiedOn": 1583532727693
+  },
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "msakande"
+    },
+    "lastModifiedOn": 1583532727693
+  },
+  "tags": [],
+  "customFields": {},
+  "checklists": {
+    "checklists": []
+  }
+}
