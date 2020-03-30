@@ -750,17 +750,36 @@
           "type": "CONTINUOUS"
         },
         "id": "QjK6A4N"
+      },
+      {
+        "type": "ks_test_2samp",
+        "value1": [
+          "red"
+        ],
+        "value2": [
+          "white"
+        ],
+        "confidenceLevel": 0.95,
+        "xColumn": {
+          "name": "density",
+          "type": "CONTINUOUS"
+        },
+        "yColumn": {
+          "name": "type",
+          "type": "CATEGORICAL"
+        },
+        "id": "ThSKPia"
       }
     ],
     "id": "ogM7clo"
   },
   "name": "Worksheet",
   "versionTag": {
-    "versionNumber": 54,
+    "versionNumber": 55,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1585572647915
+    "lastModifiedOn": 1585573440027
   },
   "creationTag": {
     "versionNumber": 0,
