@@ -124,7 +124,7 @@
       }
     }
   },
-  "name": "Interactive Stats",
+  "name": "Interactive Stats (export)",
   "imgPattern": 3,
   "showInitials": false,
   "metrics": {
@@ -182,11 +182,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 14,
+    "versionNumber": 16,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1585596411302
+    "lastModifiedOn": 1585596772577
   },
   "creationTag": {
     "versionNumber": 0,
@@ -195,7 +195,7 @@
     },
     "lastModifiedOn": 1583532727690
   },
-  "shortDesc": "Perform exploratory data analysis (EDA) on a dataset",
+  "shortDesc": "Perform exploratory data analysis (EDA) on a dataset\nThe project *INTERACTIVE_STATS_EXPORT* was copied from *DKU_TUTORIAL_STATS* by Mark Treveil on Mar 30th 2020",
   "tags": [
     "statistics",
     "eda",
