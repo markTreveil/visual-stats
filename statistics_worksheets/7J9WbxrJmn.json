@@ -267,7 +267,7 @@
             "type": "CONTINUOUS"
           },
           {
-            "name": "quality",
+            "name": "alcohol",
             "type": "CONTINUOUS"
           }
         ],
@@ -299,7 +299,7 @@
                 "type": "bivariate_histogram",
                 "xBinningMode": "AUTO",
                 "yBinningMode": "AUTO",
-                "maxValuesX": 5,
+                "maxValuesX": 100,
                 "maxValuesY": 5,
                 "groupWithOthersX": true,
                 "groupWithOthersY": true,
@@ -384,7 +384,7 @@
           {
             "type": "column_card",
             "column": {
-              "name": "quality",
+              "name": "alcohol",
               "type": "CONTINUOUS"
             },
             "cards": [
@@ -395,34 +395,34 @@
                 "binningMode": "AUTO",
                 "customBinningBoundaries": [],
                 "xColumn": {
-                  "name": "quality",
+                  "name": "alcohol",
                   "type": "CONTINUOUS"
                 },
                 "yColumn": {
                   "name": "type",
                   "type": "CATEGORICAL"
                 },
-                "id": "PYc9OEz"
+                "id": "lKh3ULJ"
               },
               {
                 "type": "bivariate_histogram",
                 "xBinningMode": "AUTO",
                 "yBinningMode": "AUTO",
-                "maxValuesX": 5,
+                "maxValuesX": 100,
                 "maxValuesY": 5,
                 "groupWithOthersX": true,
                 "groupWithOthersY": true,
                 "xCustomBinningBoundaries": [],
                 "yCustomBinningBoundaries": [],
                 "xColumn": {
-                  "name": "quality",
+                  "name": "alcohol",
                   "type": "CONTINUOUS"
                 },
                 "yColumn": {
                   "name": "type",
                   "type": "CATEGORICAL"
                 },
-                "id": "9gGGrRY"
+                "id": "jOYkweg"
               },
               {
                 "type": "mosaic_plot",
@@ -435,14 +435,14 @@
                 "xCustomBinningBoundaries": [],
                 "yCustomBinningBoundaries": [],
                 "xColumn": {
-                  "name": "quality",
+                  "name": "alcohol",
                   "type": "CONTINUOUS"
                 },
                 "yColumn": {
                   "name": "type",
                   "type": "CATEGORICAL"
                 },
-                "id": "7DBKx98"
+                "id": "sc2U8rr"
               },
               {
                 "type": "bivariate_summary",
@@ -458,14 +458,14 @@
                   "completeCount": true
                 },
                 "xColumn": {
-                  "name": "quality",
+                  "name": "alcohol",
                   "type": "CONTINUOUS"
                 },
                 "yColumn": {
                   "name": "type",
                   "type": "CATEGORICAL"
                 },
-                "id": "Tidqsuv"
+                "id": "BDOwvrq"
               },
               {
                 "type": "bivariate_frequency_table",
@@ -478,17 +478,17 @@
                 "xCustomBinningBoundaries": [],
                 "yCustomBinningBoundaries": [],
                 "xColumn": {
-                  "name": "quality",
+                  "name": "alcohol",
                   "type": "CONTINUOUS"
                 },
                 "yColumn": {
                   "name": "type",
                   "type": "CATEGORICAL"
                 },
-                "id": "bWhSuFd"
+                "id": "jBr0hLO"
               }
             ],
-            "id": "NlhDlhh"
+            "id": "xn0Dted"
           }
         ],
         "id": "hxR31Sw"
@@ -498,11 +498,11 @@
   },
   "name": "Worksheet",
   "versionTag": {
-    "versionNumber": 11,
+    "versionNumber": 17,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1585568515951
+    "lastModifiedOn": 1585568788951
   },
   "creationTag": {
     "versionNumber": 0,
