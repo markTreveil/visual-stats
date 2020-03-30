@@ -12,7 +12,8 @@
   "additionalDashboardUsers": {
     "users": []
   },
-  "tutorialProject": false,
+  "tutorialProject": true,
+  "tutorialId": "DKU_TUTORIAL_STATS",
   "settings": {
     "flowAnchorSourcesAndSinks": true,
     "gitCommitMode": "AUTO",
@@ -112,7 +113,8 @@
       }
     }
   },
-  "name": "101.1: Interactive Stats (Tutorial)",
+  "name": "101.1: Interactive Stats (Tutorial) for Mark Treveil",
+  "projectStatus": "Sandbox",
   "imgPattern": 3,
   "showInitials": false,
   "metrics": {
@@ -170,11 +172,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 4,
+    "versionNumber": 5,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1585555539076
+    "lastModifiedOn": 1585555541574
   },
   "creationTag": {
     "versionNumber": 0,
