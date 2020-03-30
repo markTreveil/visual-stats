@@ -248,17 +248,261 @@
           }
         ],
         "id": "o3iVTUp"
+      },
+      {
+        "type": "bivariate_header",
+        "yColumn": {
+          "name": "type",
+          "type": "CATEGORICAL"
+        },
+        "showMosaicPlot": true,
+        "showHistogram": true,
+        "showScatterPlot": false,
+        "showFrequencyTable": true,
+        "showBoxPlot": true,
+        "showSummary": true,
+        "xColumns": [
+          {
+            "name": "density",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "quality",
+            "type": "CONTINUOUS"
+          }
+        ],
+        "cards": [
+          {
+            "type": "column_card",
+            "column": {
+              "name": "density",
+              "type": "CONTINUOUS"
+            },
+            "cards": [
+              {
+                "type": "bivariate_box_plot",
+                "maxValues": 5,
+                "groupOthers": true,
+                "binningMode": "AUTO",
+                "customBinningBoundaries": [],
+                "xColumn": {
+                  "name": "density",
+                  "type": "CONTINUOUS"
+                },
+                "yColumn": {
+                  "name": "type",
+                  "type": "CATEGORICAL"
+                },
+                "id": "dQTgeGq"
+              },
+              {
+                "type": "bivariate_histogram",
+                "xBinningMode": "AUTO",
+                "yBinningMode": "AUTO",
+                "maxValuesX": 5,
+                "maxValuesY": 5,
+                "groupWithOthersX": true,
+                "groupWithOthersY": true,
+                "xCustomBinningBoundaries": [],
+                "yCustomBinningBoundaries": [],
+                "xColumn": {
+                  "name": "density",
+                  "type": "CONTINUOUS"
+                },
+                "yColumn": {
+                  "name": "type",
+                  "type": "CATEGORICAL"
+                },
+                "id": "wKbeTV5"
+              },
+              {
+                "type": "mosaic_plot",
+                "xBinningMode": "AUTO",
+                "yBinningMode": "AUTO",
+                "maxValuesX": 5,
+                "maxValuesY": 5,
+                "groupWithOthersX": true,
+                "groupWithOthersY": true,
+                "xCustomBinningBoundaries": [],
+                "yCustomBinningBoundaries": [],
+                "xColumn": {
+                  "name": "density",
+                  "type": "CONTINUOUS"
+                },
+                "yColumn": {
+                  "name": "type",
+                  "type": "CATEGORICAL"
+                },
+                "id": "6jV5SDb"
+              },
+              {
+                "type": "bivariate_summary",
+                "confidenceLevel": 0.95,
+                "showConfidenceInterval": false,
+                "compute": {
+                  "spearman": true,
+                  "pearson": true,
+                  "totalCount": true,
+                  "covariance": true,
+                  "kendallTau": true,
+                  "mutualInformation": true,
+                  "completeCount": true
+                },
+                "xColumn": {
+                  "name": "density",
+                  "type": "CONTINUOUS"
+                },
+                "yColumn": {
+                  "name": "type",
+                  "type": "CATEGORICAL"
+                },
+                "id": "8u6YVFq"
+              },
+              {
+                "type": "bivariate_frequency_table",
+                "xBinningMode": "AUTO",
+                "yBinningMode": "AUTO",
+                "maxValuesX": 5,
+                "maxValuesY": 5,
+                "groupWithOthersX": true,
+                "groupWithOthersY": true,
+                "xCustomBinningBoundaries": [],
+                "yCustomBinningBoundaries": [],
+                "xColumn": {
+                  "name": "density",
+                  "type": "CONTINUOUS"
+                },
+                "yColumn": {
+                  "name": "type",
+                  "type": "CATEGORICAL"
+                },
+                "id": "hVXXd7X"
+              }
+            ],
+            "id": "1pH6b25"
+          },
+          {
+            "type": "column_card",
+            "column": {
+              "name": "quality",
+              "type": "CONTINUOUS"
+            },
+            "cards": [
+              {
+                "type": "bivariate_box_plot",
+                "maxValues": 5,
+                "groupOthers": true,
+                "binningMode": "AUTO",
+                "customBinningBoundaries": [],
+                "xColumn": {
+                  "name": "quality",
+                  "type": "CONTINUOUS"
+                },
+                "yColumn": {
+                  "name": "type",
+                  "type": "CATEGORICAL"
+                },
+                "id": "PYc9OEz"
+              },
+              {
+                "type": "bivariate_histogram",
+                "xBinningMode": "AUTO",
+                "yBinningMode": "AUTO",
+                "maxValuesX": 5,
+                "maxValuesY": 5,
+                "groupWithOthersX": true,
+                "groupWithOthersY": true,
+                "xCustomBinningBoundaries": [],
+                "yCustomBinningBoundaries": [],
+                "xColumn": {
+                  "name": "quality",
+                  "type": "CONTINUOUS"
+                },
+                "yColumn": {
+                  "name": "type",
+                  "type": "CATEGORICAL"
+                },
+                "id": "9gGGrRY"
+              },
+              {
+                "type": "mosaic_plot",
+                "xBinningMode": "AUTO",
+                "yBinningMode": "AUTO",
+                "maxValuesX": 5,
+                "maxValuesY": 5,
+                "groupWithOthersX": true,
+                "groupWithOthersY": true,
+                "xCustomBinningBoundaries": [],
+                "yCustomBinningBoundaries": [],
+                "xColumn": {
+                  "name": "quality",
+                  "type": "CONTINUOUS"
+                },
+                "yColumn": {
+                  "name": "type",
+                  "type": "CATEGORICAL"
+                },
+                "id": "7DBKx98"
+              },
+              {
+                "type": "bivariate_summary",
+                "confidenceLevel": 0.95,
+                "showConfidenceInterval": false,
+                "compute": {
+                  "spearman": true,
+                  "pearson": true,
+                  "totalCount": true,
+                  "covariance": true,
+                  "kendallTau": true,
+                  "mutualInformation": true,
+                  "completeCount": true
+                },
+                "xColumn": {
+                  "name": "quality",
+                  "type": "CONTINUOUS"
+                },
+                "yColumn": {
+                  "name": "type",
+                  "type": "CATEGORICAL"
+                },
+                "id": "Tidqsuv"
+              },
+              {
+                "type": "bivariate_frequency_table",
+                "xBinningMode": "AUTO",
+                "yBinningMode": "AUTO",
+                "maxValuesX": 5,
+                "maxValuesY": 5,
+                "groupWithOthersX": true,
+                "groupWithOthersY": true,
+                "xCustomBinningBoundaries": [],
+                "yCustomBinningBoundaries": [],
+                "xColumn": {
+                  "name": "quality",
+                  "type": "CONTINUOUS"
+                },
+                "yColumn": {
+                  "name": "type",
+                  "type": "CATEGORICAL"
+                },
+                "id": "bWhSuFd"
+              }
+            ],
+            "id": "NlhDlhh"
+          }
+        ],
+        "id": "hxR31Sw"
       }
     ],
     "id": "ogM7clo"
   },
   "name": "Worksheet",
   "versionTag": {
-    "versionNumber": 9,
+    "versionNumber": 11,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1585567022775
+    "lastModifiedOn": 1585568515951
   },
   "creationTag": {
     "versionNumber": 0,
