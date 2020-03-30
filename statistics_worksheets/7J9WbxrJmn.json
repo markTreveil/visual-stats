@@ -31,53 +31,15 @@
     "showConfidenceInterval": false,
     "cards": [
       {
-        "type": "correlation_matrix",
-        "heatmapParams": {
-          "showValues": true,
-          "showColors": true,
-          "showAbsValues": false,
-          "threshold": 0.4
-        },
-        "metric": "SPEARMAN",
-        "columns": [
-          {
-            "name": "fixed acidity",
-            "type": "CONTINUOUS"
-          },
-          {
-            "name": "volatile acidity",
-            "type": "CONTINUOUS"
-          },
-          {
-            "name": "citric acid",
-            "type": "CONTINUOUS"
-          },
-          {
-            "name": "residual sugar",
-            "type": "CONTINUOUS"
-          },
-          {
-            "name": "chlorides",
-            "type": "CONTINUOUS"
-          },
-          {
-            "name": "free sulfur dioxide",
-            "type": "CONTINUOUS"
-          },
-          {
-            "name": "total sulfur dioxide",
-            "type": "CONTINUOUS"
-          },
+        "type": "univariate_header",
+        "showHistogram": true,
+        "showQuantile": true,
+        "showFrequencyTable": true,
+        "showSummary": true,
+        "showBoxPlot": true,
+        "xColumns": [
           {
             "name": "density",
-            "type": "CONTINUOUS"
-          },
-          {
-            "name": "pH",
-            "type": "CONTINUOUS"
-          },
-          {
-            "name": "sulphates",
             "type": "CONTINUOUS"
           },
           {
@@ -85,82 +47,218 @@
             "type": "CONTINUOUS"
           },
           {
-            "name": "quality",
-            "type": "CONTINUOUS"
+            "name": "type",
+            "type": "CATEGORICAL"
           }
         ],
-        "id": "0ksxilA"
-      },
-      {
-        "type": "pca",
-        "heatmapParams": {
-          "showValues": true,
-          "showColors": true,
-          "showAbsValues": false,
-          "threshold": 0.5
-        },
-        "columns": [
+        "cards": [
           {
-            "name": "fixed acidity",
-            "type": "CONTINUOUS"
+            "type": "column_card",
+            "column": {
+              "name": "density",
+              "type": "CONTINUOUS"
+            },
+            "cards": [
+              {
+                "type": "numerical_histogram",
+                "showBoxPlot": true,
+                "showHistogram": true,
+                "binningMode": "AUTO",
+                "nbBins": 25,
+                "customBinningBoundaries": [],
+                "column": {
+                  "name": "density",
+                  "type": "CONTINUOUS"
+                },
+                "id": "pNKRJsb"
+              },
+              {
+                "type": "univariate_summary",
+                "confidenceLevel": 0.95,
+                "showConfidenceInterval": false,
+                "compute": {
+                  "totalCount": true,
+                  "mean": true,
+                  "sum": false,
+                  "median": true,
+                  "std": true,
+                  "variance": false,
+                  "skewness": false,
+                  "kurtosis": false,
+                  "sem": false,
+                  "completeCount": true,
+                  "nbEmpty": true,
+                  "zeroCount": false,
+                  "zeroRatio": false,
+                  "nonZeroRatio": false,
+                  "iqr": false,
+                  "distinctCount": true,
+                  "nbNonEmpty": false,
+                  "min": true,
+                  "max": true,
+                  "range": false,
+                  "mode": true
+                },
+                "column": {
+                  "name": "density",
+                  "type": "CONTINUOUS"
+                },
+                "id": "eeDTJDD"
+              },
+              {
+                "type": "quantile_table",
+                "confidenceLevel": 0.95,
+                "showConfidenceInterval": false,
+                "column": {
+                  "name": "density",
+                  "type": "CONTINUOUS"
+                },
+                "id": "bqsN7wv"
+              }
+            ],
+            "id": "WLgqAWv"
           },
           {
-            "name": "volatile acidity",
-            "type": "CONTINUOUS"
+            "type": "column_card",
+            "column": {
+              "name": "alcohol",
+              "type": "CONTINUOUS"
+            },
+            "cards": [
+              {
+                "type": "numerical_histogram",
+                "showBoxPlot": true,
+                "showHistogram": true,
+                "binningMode": "AUTO",
+                "nbBins": 25,
+                "customBinningBoundaries": [],
+                "column": {
+                  "name": "alcohol",
+                  "type": "CONTINUOUS"
+                },
+                "id": "DC6rvPp"
+              },
+              {
+                "type": "univariate_summary",
+                "confidenceLevel": 0.95,
+                "showConfidenceInterval": false,
+                "compute": {
+                  "totalCount": true,
+                  "mean": true,
+                  "sum": false,
+                  "median": true,
+                  "std": true,
+                  "variance": false,
+                  "skewness": false,
+                  "kurtosis": false,
+                  "sem": false,
+                  "completeCount": true,
+                  "nbEmpty": true,
+                  "zeroCount": false,
+                  "zeroRatio": false,
+                  "nonZeroRatio": false,
+                  "iqr": false,
+                  "distinctCount": true,
+                  "nbNonEmpty": false,
+                  "min": true,
+                  "max": true,
+                  "range": false,
+                  "mode": true
+                },
+                "column": {
+                  "name": "alcohol",
+                  "type": "CONTINUOUS"
+                },
+                "id": "zeCZCVA"
+              },
+              {
+                "type": "quantile_table",
+                "confidenceLevel": 0.95,
+                "showConfidenceInterval": false,
+                "column": {
+                  "name": "alcohol",
+                  "type": "CONTINUOUS"
+                },
+                "id": "0tB3Q51"
+              }
+            ],
+            "id": "ocLXfmh"
           },
           {
-            "name": "citric acid",
-            "type": "CONTINUOUS"
-          },
-          {
-            "name": "residual sugar",
-            "type": "CONTINUOUS"
-          },
-          {
-            "name": "chlorides",
-            "type": "CONTINUOUS"
-          },
-          {
-            "name": "free sulfur dioxide",
-            "type": "CONTINUOUS"
-          },
-          {
-            "name": "total sulfur dioxide",
-            "type": "CONTINUOUS"
-          },
-          {
-            "name": "density",
-            "type": "CONTINUOUS"
-          },
-          {
-            "name": "pH",
-            "type": "CONTINUOUS"
-          },
-          {
-            "name": "sulphates",
-            "type": "CONTINUOUS"
-          },
-          {
-            "name": "alcohol",
-            "type": "CONTINUOUS"
-          },
-          {
-            "name": "quality",
-            "type": "CONTINUOUS"
+            "type": "column_card",
+            "column": {
+              "name": "type",
+              "type": "CATEGORICAL"
+            },
+            "cards": [
+              {
+                "type": "categorical_histogram",
+                "maxValues": 10,
+                "groupOthers": false,
+                "column": {
+                  "name": "type",
+                  "type": "CATEGORICAL"
+                },
+                "id": "bZiLSYu"
+              },
+              {
+                "type": "univariate_summary",
+                "confidenceLevel": 0.95,
+                "showConfidenceInterval": false,
+                "compute": {
+                  "totalCount": true,
+                  "mean": true,
+                  "sum": false,
+                  "median": true,
+                  "std": true,
+                  "variance": false,
+                  "skewness": false,
+                  "kurtosis": false,
+                  "sem": false,
+                  "completeCount": true,
+                  "nbEmpty": true,
+                  "zeroCount": false,
+                  "zeroRatio": false,
+                  "nonZeroRatio": false,
+                  "iqr": false,
+                  "distinctCount": true,
+                  "nbNonEmpty": false,
+                  "min": true,
+                  "max": true,
+                  "range": false,
+                  "mode": true
+                },
+                "column": {
+                  "name": "type",
+                  "type": "CATEGORICAL"
+                },
+                "id": "yxQFbPc"
+              },
+              {
+                "type": "univariate_frequency_table",
+                "maxValues": 10,
+                "column": {
+                  "name": "type",
+                  "type": "CATEGORICAL"
+                },
+                "id": "l3rlxUQ"
+              }
+            ],
+            "id": "RB7QysF"
           }
         ],
-        "id": "d9SeHX1"
+        "id": "o3iVTUp"
       }
     ],
     "id": "ogM7clo"
   },
   "name": "Worksheet",
   "versionTag": {
-    "versionNumber": 6,
+    "versionNumber": 9,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1585561829899
+    "lastModifiedOn": 1585567022775
   },
   "creationTag": {
     "versionNumber": 0,
