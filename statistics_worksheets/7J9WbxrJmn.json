@@ -656,17 +656,46 @@
           "groupWithAll": true
         },
         "id": "Y9ab80A"
+      },
+      {
+        "type": "fit_curve",
+        "curves": [
+          {
+            "type": "polynomial",
+            "degree": 1
+          }
+        ],
+        "xColumn": {
+          "name": "free sulfur dioxide",
+          "type": "CONTINUOUS"
+        },
+        "yColumn": {
+          "name": "total sulfur dioxide",
+          "type": "CONTINUOUS"
+        },
+        "splitBy": {
+          "groupingColumn": {
+            "name": "pH",
+            "type": "CONTINUOUS"
+          },
+          "binningMode": "AUTO",
+          "maxValues": 5,
+          "groupWithOthers": true,
+          "customBinningBoundaries": [],
+          "groupWithAll": true
+        },
+        "id": "9SEWNsC"
       }
     ],
     "id": "ogM7clo"
   },
   "name": "Worksheet",
   "versionTag": {
-    "versionNumber": 31,
+    "versionNumber": 35,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1585570012266
+    "lastModifiedOn": 1585570523509
   },
   "creationTag": {
     "versionNumber": 0,
