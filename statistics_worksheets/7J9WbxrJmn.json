@@ -644,6 +644,17 @@
           "name": "alcohol",
           "type": "CONTINUOUS"
         },
+        "splitBy": {
+          "groupingColumn": {
+            "name": "chlorides",
+            "type": "CONTINUOUS"
+          },
+          "binningMode": "AUTO",
+          "maxValues": 5,
+          "groupWithOthers": true,
+          "customBinningBoundaries": [],
+          "groupWithAll": true
+        },
         "id": "Y9ab80A"
       }
     ],
@@ -651,11 +662,11 @@
   },
   "name": "Worksheet",
   "versionTag": {
-    "versionNumber": 28,
+    "versionNumber": 31,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1585569385653
+    "lastModifiedOn": 1585570012266
   },
   "creationTag": {
     "versionNumber": 0,
