@@ -31,11 +31,11 @@
   "name": "101.1: Interactive Stats (Tutorial)\u0027s default dashboard",
   "showGrid": true,
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1585572894382
+    "lastModifiedOn": 1585572895193
   },
   "creationTag": {
     "versionNumber": 0,
