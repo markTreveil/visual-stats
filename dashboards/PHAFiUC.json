@@ -7,8 +7,8 @@
           {
             "tileType": "INSIGHT",
             "box": {
-              "top": -1,
-              "left": -1,
+              "top": 0,
+              "left": 0,
               "width": 10,
               "height": 5
             },
@@ -24,10 +24,10 @@
           {
             "tileType": "INSIGHT",
             "box": {
-              "top": -1,
-              "left": -1,
-              "width": 10,
-              "height": 5
+              "top": 5,
+              "left": 0,
+              "width": 12,
+              "height": 8
             },
             "clickAction": "OPEN_INSIGHT",
             "tileParams": {},
@@ -48,11 +48,11 @@
   "name": "101.1: Interactive Stats (Tutorial)\u0027s default dashboard",
   "showGrid": true,
   "versionTag": {
-    "versionNumber": 4,
+    "versionNumber": 5,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1585587300723
+    "lastModifiedOn": 1585587318665
   },
   "creationTag": {
     "versionNumber": 0,
