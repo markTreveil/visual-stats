@@ -3,7 +3,25 @@
     {
       "id": "mJ1GWGl",
       "grid": {
-        "tiles": []
+        "tiles": [
+          {
+            "tileType": "INSIGHT",
+            "box": {
+              "top": -1,
+              "left": -1,
+              "width": 10,
+              "height": 5
+            },
+            "clickAction": "OPEN_INSIGHT",
+            "tileParams": {},
+            "autoLoad": true,
+            "showTitle": "YES",
+            "insightId": "cnbLg2H",
+            "insightType": "eda",
+            "displayMode": "INSIGHT",
+            "resizeImageMode": "FIT_SIZE"
+          }
+        ]
       },
       "showTitle": false
     }
@@ -13,11 +31,11 @@
   "name": "101.1: Interactive Stats (Tutorial)\u0027s default dashboard",
   "showGrid": true,
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
-      "login": "msakande"
+      "login": "admin"
     },
-    "lastModifiedOn": 1583532727693
+    "lastModifiedOn": 1585572894382
   },
   "creationTag": {
     "versionNumber": 0,
