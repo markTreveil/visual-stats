@@ -29,16 +29,78 @@
     "type": "worksheet_root",
     "confidenceLevel": 0.95,
     "showConfidenceInterval": false,
-    "cards": [],
+    "cards": [
+      {
+        "type": "correlation_matrix",
+        "heatmapParams": {
+          "showValues": true,
+          "showColors": true,
+          "showAbsValues": false,
+          "threshold": 0.4
+        },
+        "metric": "SPEARMAN",
+        "columns": [
+          {
+            "name": "fixed acidity",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "volatile acidity",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "citric acid",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "residual sugar",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "chlorides",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "free sulfur dioxide",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "total sulfur dioxide",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "density",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "pH",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "sulphates",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "alcohol",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "quality",
+            "type": "CONTINUOUS"
+          }
+        ],
+        "id": "0ksxilA"
+      }
+    ],
     "id": "ogM7clo"
   },
   "name": "Worksheet",
   "versionTag": {
-    "versionNumber": 2,
+    "versionNumber": 4,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1585561516905
+    "lastModifiedOn": 1585561681877
   },
   "creationTag": {
     "versionNumber": 0,
