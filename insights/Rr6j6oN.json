@@ -390,11 +390,11 @@
   "name": "Bivariate analysis on 3 variables ",
   "dashboardCreationId": "PHAFiUC",
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1585587299850
+    "lastModifiedOn": 1585587970839
   },
   "creationTag": {
     "versionNumber": 0,
