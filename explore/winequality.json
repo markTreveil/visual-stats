@@ -5,7 +5,21 @@
     "columnsSelection": {
       "mode": "ALL"
     },
-    "columnWidthsByName": {},
+    "columnWidthsByName": {
+      "fixed acidity": 113,
+      "volatile acidity": 135,
+      "citric acid": 100,
+      "residual sugar": 120,
+      "chlorides": 100,
+      "free sulfur dioxide": 158,
+      "total sulfur dioxide": 165,
+      "density": 100,
+      "pH": 100,
+      "sulphates": 100,
+      "alcohol": 100,
+      "quality": 100,
+      "type": 100
+    },
     "coloring": {
       "scheme": "MEANING_AND_STATUS",
       "individualColumns": [],
@@ -32,14 +46,16 @@
         "withinFirstN": -1,
         "maxReadUncompressedBytes": -1
       },
-      "autoRefreshSample": false,
-      "_refreshTrigger": 0
+      "autoRefreshSample": true,
+      "_refreshTrigger": 4
     },
     "vizSampling": {
       "autoRefreshSample": false,
       "_refreshTrigger": 0
     },
-    "exploreUIParams": {},
+    "exploreUIParams": {
+      "autoRefresh": true
+    },
     "globalSearchQuery": "",
     "explorationFilters": [],
     "previewMode": "ALL_ROWS"
@@ -116,6 +132,7 @@
           "defaultRadius": 5.0,
           "singleShape": "FILLED_CIRCLE"
         },
+        "computeMode": "NORMAL",
         "xAxisMode": "NORMAL",
         "yAxisMode": "NORMAL",
         "pieOptions": {
