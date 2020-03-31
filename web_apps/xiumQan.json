@@ -2,7 +2,7 @@
   "type": "STANDARD",
   "hasLegacyBackendURL": false,
   "params": {
-    "backendEnabled": false,
+    "backendEnabled": true,
     "enableJavascriptModules": false,
     "autoStartBackend": false,
     "hideJSSecurityPanel": false,
@@ -16,11 +16,12 @@
     ],
     "infra": {
       "containerSelection": {
-        "containerMode": "INHERIT"
+        "containerMode": "EXPLICIT_CONTAINER",
+        "containerConf": "My docker"
       },
       "overrideGlobalK8sExposition": false,
       "exposition": {
-        "type": "local_process",
+        "type": "docker_direct",
         "params": {}
       },
       "scaling": {
@@ -36,11 +37,11 @@
   "name": "Example Webapp",
   "apiKey": "3SwHTfegZHBwCLdJ4t2q3Zwah0AK47RU",
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1585649407571
+    "lastModifiedOn": 1585649480318
   },
   "creationTag": {
     "versionNumber": 0,
