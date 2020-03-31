@@ -1,0 +1,73 @@
+{
+  "type": "eda",
+  "params": {
+    "card": {
+      "type": "ks_test_2samp",
+      "value1": [
+        "red"
+      ],
+      "value2": [
+        "white"
+      ],
+      "confidenceLevel": 0.95,
+      "xColumn": {
+        "name": "density",
+        "type": "CONTINUOUS"
+      },
+      "yColumn": {
+        "name": "type",
+        "type": "CATEGORICAL"
+      },
+      "id": "ThSKPia"
+    },
+    "dataSpec": {
+      "inputDatasetSmartName": "winequality",
+      "datasetSelection": {
+        "useMemTable": false,
+        "filter": {
+          "distinct": false,
+          "enabled": false
+        },
+        "partitionSelectionMethod": "ALL",
+        "latestPartitionsN": 1,
+        "ordering": {
+          "enabled": false,
+          "rules": []
+        },
+        "samplingMethod": "HEAD_SEQUENTIAL",
+        "maxRecords": 100000,
+        "targetRatio": 0.02,
+        "withinFirstN": -1,
+        "maxReadUncompressedBytes": -1
+      },
+      "autoRefreshSample": true,
+      "refreshTrigger": 0,
+      "containerSelection": {
+        "containerMode": "INHERIT"
+      }
+    }
+  },
+  "owner": "admin",
+  "listed": true,
+  "name": "Two-sample Kolmogorov–Smirnov test",
+  "dashboardCreationId": "will-be-replaced-by-modal",
+  "versionTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1585667465880
+  },
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1585667465880
+  },
+  "tags": [],
+  "customFields": {},
+  "checklists": {
+    "checklists": []
+  }
+}
