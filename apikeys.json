@@ -1,0 +1,24 @@
+[
+  {
+    "execSQLLike": false,
+    "localDatasets": [],
+    "projectPrivileges": {
+      "admin": false,
+      "readProjectContent": false,
+      "writeProjectContent": false,
+      "exportDatasetsData": false,
+      "readDashboards": false,
+      "writeDashboards": false,
+      "moderateDashboards": false,
+      "runScenarios": false,
+      "manageDashboardAuthorizations": false,
+      "manageExposedElements": false,
+      "manageAdditionalDashboardUsers": false
+    },
+    "onBehalf": "xiumQan",
+    "id": "ECh1eq47N2Ia45Lv",
+    "key": "3SwHTfegZHBwCLdJ4t2q3Zwah0AK47RU",
+    "label": "Key for Web app Example Webapp(xiumQan)",
+    "createdOn": 1585649407291
+  }
+]
