@@ -681,7 +681,7 @@
           "showValues": true,
           "showColors": true,
           "showAbsValues": false,
-          "threshold": 0.5
+          "threshold": 0.0
         },
         "metric": "SPEARMAN",
         "columns": [
@@ -831,11 +831,11 @@
   },
   "name": "Example worksheet",
   "versionTag": {
-    "versionNumber": 73,
+    "versionNumber": 75,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1585644760441
+    "lastModifiedOn": 1585645348322
   },
   "creationTag": {
     "versionNumber": 0,
