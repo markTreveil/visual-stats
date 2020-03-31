@@ -17,7 +17,7 @@
     "infra": {
       "containerSelection": {
         "containerMode": "EXPLICIT_CONTAINER",
-        "containerConf": "My docker"
+        "containerConf": "K8s imaginary"
       },
       "overrideGlobalK8sExposition": false,
       "exposition": {
@@ -37,11 +37,11 @@
   "name": "Example Webapp",
   "apiKey": "3SwHTfegZHBwCLdJ4t2q3Zwah0AK47RU",
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1585649480318
+    "lastModifiedOn": 1585649623190
   },
   "creationTag": {
     "versionNumber": 0,
