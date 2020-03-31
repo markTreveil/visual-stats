@@ -1,0 +1,273 @@
+{
+  "type": "eda",
+  "params": {
+    "card": {
+      "type": "univariate_header",
+      "showHistogram": true,
+      "showQuantile": true,
+      "showFrequencyTable": true,
+      "showSummary": true,
+      "showBoxPlot": true,
+      "xColumns": [
+        {
+          "name": "density",
+          "type": "CONTINUOUS"
+        },
+        {
+          "name": "alcohol",
+          "type": "CONTINUOUS"
+        },
+        {
+          "name": "type",
+          "type": "CATEGORICAL"
+        }
+      ],
+      "cards": [
+        {
+          "type": "column_card",
+          "column": {
+            "name": "density",
+            "type": "CONTINUOUS"
+          },
+          "cards": [
+            {
+              "type": "numerical_histogram",
+              "showBoxPlot": true,
+              "showHistogram": true,
+              "binningMode": "AUTO",
+              "nbBins": 25,
+              "customBinningBoundaries": [],
+              "column": {
+                "name": "density",
+                "type": "CONTINUOUS"
+              },
+              "id": "pNKRJsb"
+            },
+            {
+              "type": "univariate_summary",
+              "confidenceLevel": 0.95,
+              "showConfidenceInterval": false,
+              "compute": {
+                "totalCount": true,
+                "mean": true,
+                "sum": false,
+                "median": true,
+                "std": true,
+                "variance": false,
+                "skewness": false,
+                "kurtosis": false,
+                "sem": false,
+                "completeCount": true,
+                "nbEmpty": true,
+                "zeroCount": false,
+                "zeroRatio": false,
+                "nonZeroRatio": false,
+                "iqr": false,
+                "distinctCount": true,
+                "nbNonEmpty": false,
+                "min": true,
+                "max": true,
+                "range": false,
+                "mode": true
+              },
+              "column": {
+                "name": "density",
+                "type": "CONTINUOUS"
+              },
+              "id": "eeDTJDD"
+            },
+            {
+              "type": "quantile_table",
+              "confidenceLevel": 0.95,
+              "showConfidenceInterval": false,
+              "column": {
+                "name": "density",
+                "type": "CONTINUOUS"
+              },
+              "id": "bqsN7wv"
+            }
+          ],
+          "id": "WLgqAWv"
+        },
+        {
+          "type": "column_card",
+          "column": {
+            "name": "alcohol",
+            "type": "CONTINUOUS"
+          },
+          "cards": [
+            {
+              "type": "numerical_histogram",
+              "showBoxPlot": true,
+              "showHistogram": true,
+              "binningMode": "AUTO",
+              "nbBins": 25,
+              "customBinningBoundaries": [],
+              "column": {
+                "name": "alcohol",
+                "type": "CONTINUOUS"
+              },
+              "id": "DC6rvPp"
+            },
+            {
+              "type": "univariate_summary",
+              "confidenceLevel": 0.95,
+              "showConfidenceInterval": false,
+              "compute": {
+                "totalCount": true,
+                "mean": true,
+                "sum": false,
+                "median": true,
+                "std": true,
+                "variance": false,
+                "skewness": false,
+                "kurtosis": false,
+                "sem": false,
+                "completeCount": true,
+                "nbEmpty": true,
+                "zeroCount": false,
+                "zeroRatio": false,
+                "nonZeroRatio": false,
+                "iqr": false,
+                "distinctCount": true,
+                "nbNonEmpty": false,
+                "min": true,
+                "max": true,
+                "range": false,
+                "mode": true
+              },
+              "column": {
+                "name": "alcohol",
+                "type": "CONTINUOUS"
+              },
+              "id": "zeCZCVA"
+            },
+            {
+              "type": "quantile_table",
+              "confidenceLevel": 0.95,
+              "showConfidenceInterval": false,
+              "column": {
+                "name": "alcohol",
+                "type": "CONTINUOUS"
+              },
+              "id": "0tB3Q51"
+            }
+          ],
+          "id": "ocLXfmh"
+        },
+        {
+          "type": "column_card",
+          "column": {
+            "name": "type",
+            "type": "CATEGORICAL"
+          },
+          "cards": [
+            {
+              "type": "categorical_histogram",
+              "maxValues": 10,
+              "groupOthers": false,
+              "column": {
+                "name": "type",
+                "type": "CATEGORICAL"
+              },
+              "id": "bZiLSYu"
+            },
+            {
+              "type": "univariate_summary",
+              "confidenceLevel": 0.95,
+              "showConfidenceInterval": false,
+              "compute": {
+                "totalCount": true,
+                "mean": true,
+                "sum": false,
+                "median": true,
+                "std": true,
+                "variance": false,
+                "skewness": false,
+                "kurtosis": false,
+                "sem": false,
+                "completeCount": true,
+                "nbEmpty": true,
+                "zeroCount": false,
+                "zeroRatio": false,
+                "nonZeroRatio": false,
+                "iqr": false,
+                "distinctCount": true,
+                "nbNonEmpty": false,
+                "min": true,
+                "max": true,
+                "range": false,
+                "mode": true
+              },
+              "column": {
+                "name": "type",
+                "type": "CATEGORICAL"
+              },
+              "id": "yxQFbPc"
+            },
+            {
+              "type": "univariate_frequency_table",
+              "maxValues": 10,
+              "column": {
+                "name": "type",
+                "type": "CATEGORICAL"
+              },
+              "id": "l3rlxUQ"
+            }
+          ],
+          "id": "RB7QysF"
+        }
+      ],
+      "id": "o3iVTUp"
+    },
+    "dataSpec": {
+      "inputDatasetSmartName": "winequality",
+      "datasetSelection": {
+        "useMemTable": false,
+        "filter": {
+          "distinct": false,
+          "enabled": false
+        },
+        "partitionSelectionMethod": "ALL",
+        "latestPartitionsN": 1,
+        "ordering": {
+          "enabled": false,
+          "rules": []
+        },
+        "samplingMethod": "HEAD_SEQUENTIAL",
+        "maxRecords": 100000,
+        "targetRatio": 0.02,
+        "withinFirstN": -1,
+        "maxReadUncompressedBytes": -1
+      },
+      "autoRefreshSample": true,
+      "refreshTrigger": 0,
+      "containerSelection": {
+        "containerMode": "INHERIT"
+      }
+    }
+  },
+  "owner": "admin",
+  "listed": true,
+  "name": "Univariate analysis on 3 variables ",
+  "dashboardCreationId": "will-be-replaced-by-modal",
+  "versionTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1585645488999
+  },
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1585645488999
+  },
+  "tags": [],
+  "customFields": {},
+  "checklists": {
+    "checklists": []
+  }
+}
